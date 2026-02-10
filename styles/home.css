@@ -1,0 +1,185 @@
+/* =================================
+   ========== PRÉSENTATION =========
+   ================================= */
+.presentation {
+    font-size: 0.9em;
+    color: var(--text-gray);
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* ===================================
+   ========= RÉSEAUX SOCIAUX =========
+   =================================== */
+.social-links {
+    margin-top: var(--spacing-lg);
+    text-align: center;
+}
+
+.social-links p {
+    font-size: 0.8em;
+    color: var(--black);
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #ececec;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+/* =====================================
+   ======== SECTION CERTIFICATS ========
+   ===================================== */
+#certificates {
+    background-color: #f0f0f0;
+}
+
+.certificate-status {
+    margin-bottom: var(--spacing-sm);
+    text-align: end;
+}
+
+.certificate-status ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.certificate-status ul li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--black);
+}
+
+.certificate-status ul li span.completed {
+    background-color: var(--secondary-color);
+}
+
+.certificate-status ul li span.not-completed {
+    background-color: var(--accent-color);
+}
+
+.subject-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: flex-start;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.btn-subject {
+    background-color: var(--black);
+    padding: var(--spacing-xs) var(--spacing-lg);
+    display: inline-block;
+    font-size: 16px;
+    color: var(--white);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-subject:hover,
+.btn-subject.active {
+    background-color: var(--secondary-color);
+    color: var(--black);
+}
+
+.totalCredit {
+    text-align: end;
+    padding-top: var(--spacing-md);
+}
+
+/* ===================================
+   ========= CARTES DE COURS =========
+   =================================== */
+.btn {
+    border-radius: 0.5em;
+}
+
+.course {
+    border-radius: 0.5em;
+    margin-bottom: var(--spacing-md);
+}
+
+.course-header {
+    color: var(--black);
+}
+
+.btn-course {
+    border: 1px solid var(--primary-color);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.btn-course:hover {
+    opacity: 1;
+}
+
+button.complete{
+    background-color: var(--secondary-color);
+}
+
+button.not-complete {
+    background-color: var(--accent-color);
+}
+
+.card {
+    border: 1px solid var(--accent-color);
+    box-shadow: 10px 10px 50px #e3e3e3;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    border-radius: 0.5em;
+    background-color: var(--white);
+}
+
+.card-header h2 {
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-md);
+    border-radius: 0.5em;
+}
+
+.card-body {
+    padding: 1.5em;
+}
+
+/* ===========================
+   ========= CONTACT =========
+   =========================== */
+#contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-md);
+}
+
+#contact p {
+    font-size: 1em;
+}
+
+#contact p>i {
+    font-size: 1em;
+}
+
+.amoiry img {
+    width: 150px;
+}

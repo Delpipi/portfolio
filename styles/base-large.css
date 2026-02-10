@@ -1,0 +1,41 @@
+/* ==================================
+   VERSION DESKTOP (écrans >= 768px)
+   =================================== */
+@media screen and (min-width: 768px) {
+/* Boutons CTA en ligne */
+    .cta {
+        flex-direction: row;
+    }
+
+    .cta a {
+        display: inline-block;
+    }
+
+    .presentation p:first-child {
+        margin-bottom: 1em;
+    }
+    
+    .container {
+        padding: var(--spacing-lg) var(--spacing-xl);
+    }
+
+    /* Cache le menu hamburger sur desktop */
+    #menu {
+        display: none;
+    }
+
+    /* Navigation horizontale */
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+        width: 150px;
+        border-left: 0.5px solid var(--border-gray);
+        border-right: 0.5px solid var(--border-gray);
+        border-bottom: 0;
+    }
+}

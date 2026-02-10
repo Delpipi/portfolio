@@ -1,0 +1,55 @@
+/* ================================================
+   VERSION DESKTOP - Page d'accueil (écrans >= 768px)
+   ================================================ */
+@media screen and (min-width: 768px) {
+    /* Grille de certificats */
+    #certificateList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .certificate-status ul {
+        justify-content: flex-end;
+    }
+
+    .subject-nav {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .btn-subject {
+        min-width: 150px;
+    }
+
+    .subject-courses {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1em;
+    }
+
+    /* ===========================
+    ========= CONTACT =========
+    =========================== */
+   #contact {
+        grid-template-columns: 2fr 1fr;
+        padding: var(--spacing-lg) var(--spacing-xl);
+    }
+
+    #contact p{
+        font-size: 1.5em;
+    }
+
+    #contact p > i{
+        font-size: 1.2em;
+        margin-right: var(--spacing-md);
+    }
+
+    #contact p:first-child{
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .amoiry {
+        width: 150px;
+    }
+}
